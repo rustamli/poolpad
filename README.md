@@ -4,7 +4,9 @@ A personal Chrome extension that adds a Poolsuite-style notepad window to
 [poolsuite.net](https://poolsuite.net), with a matching "Poolpad" button in the
 desktop dock.
 
-<img width="1000" alt="poolpad" src="https://github.com/user-attachments/assets/9cbb877c-b70a-4e96-8c3a-7d7076448f84" />
+<div align="center">
+  <img width="1000" alt="poolpad-1" src="https://github.com/user-attachments/assets/703b20aa-b57f-4030-80f2-e96857aa6b58" />
+</div>
 
 ## Features
 
@@ -25,6 +27,7 @@ desktop dock.
 4. Reload poolsuite.net — the Poolpad button appears at the end of the dock
    once the desktop finishes booting.
 
+
 ## iPad / Safari
 
 iPadOS doesn't support Chrome extensions, but `poolpad.user.js` is the same
@@ -38,6 +41,7 @@ with: `cat` the userscript header + `content.js` into `poolpad.user.js`).
 
 Note: notes live in each browser's localStorage, so iPad and desktop notes
 don't sync — use Download .txt to move text between devices.
+
 
 ## How it works
 
