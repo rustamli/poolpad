@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Poolpad",
+  "version": "1.0",
+  "description": "A Poolsuite-style notepad window for poolsuite.net. Autosaves to localStorage.",
+  "content_scripts": [
+    {
+      "matches": ["https://poolsuite.net/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
