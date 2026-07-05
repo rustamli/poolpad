@@ -4,6 +4,8 @@ A personal Chrome extension that adds a Poolsuite-style notepad window to
 [poolsuite.net](https://poolsuite.net), with a matching "Poolpad" button in the
 desktop dock.
 
+<img width="2350" height="1668" alt="poolpad" src="https://github.com/user-attachments/assets/9cbb877c-b70a-4e96-8c3a-7d7076448f84" />
+
 ## Features
 
 - Window chrome reuses Poolsuite's own compiled Tailwind classes, so it looks
